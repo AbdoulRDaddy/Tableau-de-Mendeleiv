@@ -1,0 +1,67 @@
+.vert {
+    background-color: #A4D9C9;
+}
+.Vc {
+    background-color: #CDEBC8;
+}
+.violet {
+    background-color: #9E95C7;
+}
+.org {
+    background-color: #FECDA0;
+}
+.orange {
+    background-color: #F8A78E;
+}
+.jaune {
+    background-color: #F0F9C1;
+}
+.kaki {
+    background-color: #FFECB9;
+}
+.bleu {
+    background-color: #84B8D7;
+}
+.rosa {
+    background-color: #C5678E;
+}
+.rose {
+    background-color: #E68A95;
+}
+body {
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+table {
+    margin: auto;
+}
+strong {
+    font-size: 25px;
+}
+td {
+    font-size: 0.9vw;
+    text-align: center;
+    height: 6vh;  
+}
+@media screen and (max-width: 800px) 
+{
+    table {
+        width: auto;
+        align-self: center;
+    }
+    td {
+        font-size: 0.6vw ;
+        height: 3vh;
+    }
+    strong {
+        font-size: 15px;
+    }
+}
+.lee {
+    border-radius: 100px;
+}
